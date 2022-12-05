@@ -3,6 +3,8 @@ function calcShipping(sum, min, shipping) {
     let freeShippingMinSum = min; // минимальная цена для бесплатной доставки
     let shippingPrice = shipping; // стоимость доставки
 
+    console.log(freeShippingMinSum, shippingPrice);
+
     // Задание №2.1. Рассчитать доставку
 
     // создайте переменную shippingSum
@@ -31,6 +33,8 @@ function calcDiscount(sum, min, discount) {
     let productsSum = sum; // сумма в корзине
     let discountMinSum = min; // минимальная цена для скидки
     let discountPart = discount; // величина скидки в процентах
+
+    console.log(discountMinSum, discountPart);
 
     // Задание №2.2. Рассчитать скидку
 
@@ -76,6 +80,8 @@ function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shi
     
 
     let freeShipping = Boolean(shippingSum);
+
+    console.log(freeShipping);
 
     // создайте переменную freeShipping
     // запишите без использования if или любых других условий:
