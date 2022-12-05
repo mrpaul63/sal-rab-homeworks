@@ -81,7 +81,7 @@ function calcInvoice({sum, discountMinSum, discountPart, shippingFreeMinSum, shi
 
     let freeShipping = Boolean(shippingSum);
 
-    console.log(freeShipping);
+    let freeShipping == shippingSum;
 
     // создайте переменную freeShipping
     // запишите без использования if или любых других условий:
