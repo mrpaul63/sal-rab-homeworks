@@ -3,7 +3,8 @@ function calcShipping(sum, min, shipping) {
     let freeShippingMinSum = min; // минимальная цена для бесплатной доставки
     let shippingPrice = shipping; // стоимость доставки
 
-    console.log(freeShippingMinSum, shippingPrice);
+    console.log(`Минимальная сумма доставки ${freeShippingMinSum}
+    Цена доставки ${shippingPrice}`);
 
     // Задание №2.1. Рассчитать доставку
 
@@ -34,7 +35,8 @@ function calcDiscount(sum, min, discount) {
     let discountMinSum = min; // минимальная цена для скидки
     let discountPart = discount; // величина скидки в процентах
 
-    console.log(discountMinSum, discountPart);
+    console.log(`Минимальная сумма для скидки ${discountMinSum}, 
+    размер скидки ${discountPart}`);
 
     // Задание №2.2. Рассчитать скидку
 
