@@ -18,7 +18,7 @@ function renderProductsCards(json) {
 clearProducts();
 let products = parseProducts(json);
 let length = products.length;
-for (i = 0; i < length; i += 1) {
+for (i = 0; i < length; i++) {
 addProduct(products[i]);
 }
 // Выполните функцию clearProducts - она уже написана в коде, просто вызовите ее, аргументы не требуются
