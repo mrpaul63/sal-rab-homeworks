@@ -18,7 +18,9 @@ function renderProductsCards(json) {
 // Аргументом функции является JSON
 clearProducts();
 let products = parseProducts(json);
-console.log(`products2 ${products}`)
+console.log(`products2 ${products}`);
+console.log(`object 0${products[0]}`);
+for (i=0, i < length, i++) {console.log(products[i]);}
 let length = products.length;
 for (i = 0; i < length; i++) {
 addProduct(products[i]);
